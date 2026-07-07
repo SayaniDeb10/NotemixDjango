@@ -126,6 +126,6 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 LOGIN_URL = '/accounts/login/'
 
-LOGIN_REDIRECT_URL = '/tweets/'  # Redirect to tweet list after login
-LOGOUT_REDIRECT_URL = '/tweets/'  # Redirect to login page after logout
+LOGIN_REDIRECT_URL = '/tweet/'  # Redirect to tweet list after login
+LOGOUT_REDIRECT_URL = '/tweet/'  # Redirect to login page after logout
 
